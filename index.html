@@ -5,27 +5,105 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title></title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="">
-    <link rel="preconnect" href="" crossorigin>
-    <link href="" rel="t">
+    <link rel="stylesheet" href="fichiers_annexes/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/924975b46e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header id="header">
-        <img id="" src="" alt="" />
-        <nav id="">
-            <a class="" href=""></a>
-            <a class="" href=""></a>       
-        </nav>
+    <header>
+        <img id="logo_entreprise_grand" src="fichiers_annexes/logo/ohmyfood@2x.svg" alt="logo ohmyfood" />
+        <div>
+            <i id="icone_localisation" class="fas fa-map-marker-alt"></i>
+            Paris, Belleville
+        </div>
+        <div>
+            <h1>Réservez le menu qui vous convient</h1>
+            <h2>Découvrez des restaurants d'exeption, sélectionnés par nos soins.</h2>
+            <button id="bouton_exploration" type="button">Explorer nos restaurants</button> 
+        </div>
     </header>
-    <section id="">
-        <h1></h1>
-        <h2></h2>
+    <section id="fonctionnement">
+        <h2>Fonctionnement</h2>
+        <div class="choix">
+            <span class="numero_choix">1</span>
+            <i class="fas fa-mobile-alt"></i>
+            <span class="description_choix">Choisissez un restaurant</span>
+        </div>
+        <div class="choix">
+            <span class="numero_choix">2</span>
+            <i class="fas fa-list-ul"></i>
+            <span class="description_choix">Composez votre menu</span>
+        </div>
+        <div class="choix">
+            <span class="numero_choix">3</span>
+            <i class="fas fa-store"></i>
+            <span class="description_choix">Dégustez au restaurant</span>
+        </div>
     </section>
-    <footer id="">
-        <a href=""></a>
+    <section id="restaurant">
+        <a class="description_restaurant" href="#">
+            <img class="image_restaurant" src="fichiers_annexes/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image la palette du goût" />
+            <div>
+                <span>
+                    <h2>La palette du goût</h2>
+                    <h3>Ménilmontant</h3>
+                </span>
+                <i class="far fa-heart"></i>
+            </div>
+        </a>
+        <a class="description_restaurant" href="#">
+            <img class="image_restaurant" src="fichiers_annexes/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image la note enchantée" />
+            <div>
+                <span>
+                    <h2>La note enchantée</h2>
+                    <h3>Charonne</h3>
+                </span>
+                <i class="far fa-heart"></i>
+            </div>
+        </a>
+        <a class="description_restaurant" href="#">
+            <img class="image_restaurant" src="fichiers_annexes/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image À la francaise" />
+            <div>
+                <span>
+                    <h2>À la francaise</h2>
+                    <h3>Cité rouge</h3>
+                </span>
+                <i class="far fa-heart"></i>
+            </div>
+        </a>
+        <a class="description_restaurant" href="#">
+            <img class="image_restaurant" src="fichiers_annexes/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image Le délice des sens" />
+            <div>
+                <span>
+                    <h2>Le délice des sens</h2>
+                    <h3>Folie-Méricourt</h3>
+                </span>
+                <i class="far fa-heart"></i>
+            </div>
+        </a>
+    </section>
+    <footer>
+        <img id="logo_entreprise_petit" src="fichiers_annexes/logo/ohmyfood@2x.svg" alt="logo ohmyfood" />
+        <span>
+            <a class="lien_footer gras" href="#">
+                <i class="fas fa-utensils"></i>
+                <h2>Proposer un restaurant</h2>
+            </a>
+            <a class="lien_footer gras" href="#">
+                <i class="fas fa-hands-helping"></i>
+                <h2>Devenir partenaire</h2>
+            </a>
+            <a class="lien_footer normal" href="#">
+                <h2>Mentions légales</h2>
+            </a>
+            <a class="lien_footer normal" href="mailto:info@ohmyfood.com">
+                <h2>Contact</h2>
+            </a>
+        </span>
     </footer>
 </body>
 </html>
