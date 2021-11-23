@@ -1,22 +1,235 @@
 * {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body, html{
     margin:0;
     padding:0;
-
+}
 
 /* Header */
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_entreprise_grand{
+    display:flex;
+    width:40%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#localisation{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220,220,220);
+    width:100%;
+    height:50px;
+}
+
+#icone_localisation{
+    display:flex;
+    font-size: 0.8em;
+    margin-right:10px;
+}
+
+#localisation p {
+    font-size: 0.8em;
+    margin:0;
+}
+
+header h1{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    width:60%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+header h2{
+    font-size: 1em;
+    text-align: center;
+    width:80%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+#bouton_exploration{
+    display:flex;
+    align-items: center;
+    width:50%;
+    height:40px;
+    background:linear-gradient(#FF79DA, #9356DC );
+    border:none;
+    border-radius:20px;
+    margin:auto;
+    margin-top:20px;
+}
+
+#bouton_exploration h3{
+    display:flex;
+    font-size: 1em;
+    color:white;
+    margin:auto;
+}
 
 
 /* Section */
 
+#fonctionnement, #restaurant{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin:auto;
+    margin-top:50px;
+}
+
+#fonctionnement h2, #restaurant h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin:0;
+}
+
+.choix{
+    display:flex;
+    align-items:center;
+    position:relative;
+    width:80%;
+    height:60px;
+    box-shadow: 0px 5px 5px rgb(200,200,200);
+    border: 1px rgb(200,200,200) solid;
+    border-radius: 20px;
+    margin:0;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.numero_choix{
+    position:absolute;
+    left:-10px;
+    text-align:center;
+    font-size: 0.8em;
+    color:white;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color:#9356DC;
+}
+
+.fa-mobile-alt, .fa-list-ul, .fa-store{
+    margin-left:20px;
+    margin-right:10px;
+    color:rgb(150,150,150);
+}
+
+.fond_secondaire{
+    background-color:#f5edff;
+}
+
+.fa-store{
+    color:#9356DC;
+}
+
+.description_choix{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.description_restaurant{
+    margin-top:20px;
+    text-decoration:none;
+    color:black;
+}
+
+.image_description_restaurant{
+    width:100%;
+    height:200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.texte_description_restaurant{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px rgb(200,200,200);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:20px;
+}
+
+.texte_description_restaurant_gauche h3, .texte_description_restaurant_gauche h4{
+    margin:0;
+}
+
+.texte_description_restaurant_gauche h3{
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.texte_description_restaurant_gauche h4{
+    font-size: 0.9em;
+}
+
+.texte_description_restaurant i.fas, .texte_description_restaurant i.far {
+    display:flex;
+    align-items:center;
+    margin-right:20px;
+    font-size: 1.2em;
+}
+
+.texte_description_restaurant i.fas {
+    display:none;
+}
 
 /* Footer */
 
+footer{
+    margin-top:100px;
+    background-color:rgb(150,150,150);
+    padding:20px;
+}
 
+#logo_entreprise_petit{
+    display:flex;
+    width:35%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.lien_footer{
+    text-decoration:none;
+    color:black;
+    align-items:center;
+}
+
+.lien_footer h2{
+    font-size: 1em;
+    color:white;
+}
+
+.lien_footer i{
+    color:white;
+    width:8%;
+}
+
+.gras{
+    display:flex;
+    flex-direction: row;
+    font-weight:bold;
+    
+}
+
+.normal{
+    margin:0;
+}
 
 
 @media screen and (max-width: 992px) { 
