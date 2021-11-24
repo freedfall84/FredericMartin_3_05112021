@@ -63,23 +63,18 @@ header h2{
 
 #bouton_exploration{
     display:flex;
+    justify-content: center;
     align-items: center;
     width:50%;
     height:40px;
+    font-size: 1em;
+    color:white;
     background:linear-gradient(#FF79DA, #9356DC );
     border:none;
     border-radius:20px;
     margin:auto;
     margin-top:20px;
 }
-
-#bouton_exploration h3{
-    display:flex;
-    font-size: 1em;
-    color:white;
-    margin:auto;
-}
-
 
 /* Section */
 
@@ -112,9 +107,11 @@ header h2{
 }
 
 .numero_choix{
+    display: flex;
+    justify-content: center;
     position:absolute;
     left:-10px;
-    text-align:center;
+    align-items: center;
     font-size: 0.8em;
     color:white;
     width:20px;
@@ -186,7 +183,9 @@ header h2{
 }
 
 .texte_description_restaurant i.fas {
-    display:none;
+    background:linear-gradient(#FF79DA, #9356DC );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Footer */
@@ -196,6 +195,7 @@ footer{
     background-color:rgb(150,150,150);
     padding:20px;
 }
+
 
 #logo_entreprise_petit{
     display:flex;
@@ -213,6 +213,7 @@ footer{
 .lien_footer h2{
     font-size: 1em;
     color:white;
+    margin:0;
 }
 
 .lien_footer i{
